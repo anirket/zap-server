@@ -19,7 +19,7 @@ server.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send("hello server here")
+    res.send("Hello Zap server here.")
 })
 //socket.io connection
 
