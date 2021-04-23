@@ -13,7 +13,8 @@ const io = require("socket.io")(server, {
 app.use(cors());
 let roomarray = [];
 let roominfo = []
-server.listen(3001, () => {
+let PORT = process.env.PORT || 3001;
+server.listen(PORT, () => {
     console.log("server running at 3001");
 })
 
